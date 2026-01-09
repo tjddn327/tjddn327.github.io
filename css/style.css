@@ -124,3 +124,12 @@ h2 {
     background-color: #F05032;
 }
 
+.project-link {
+    text-decoration: none;
+    color: #212529;
+}
+
+.project-link:hover {
+    color: #0d6efd;
+    text-decoration: underline;
+}
