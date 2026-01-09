@@ -81,3 +81,46 @@ h2 {
     font-size: 0.8rem;
     color: #868e96;
 }
+
+/* ===== Skills Badges ===== */
+.skill-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.badge {
+    padding: 8px 14px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 6px;
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+/* 기술별 색상 */
+.badge.java {
+    background-color: #007396;
+}
+
+.badge.spring {
+    background-color: #6DB33F;
+}
+
+.badge.redis {
+    background-color: #D82C20;
+}
+
+.badge.rabbitmq {
+    background-color: #FF6600;
+}
+
+.badge.mysql {
+    background-color: #4479A1;
+}
+
+.badge.git {
+    background-color: #F05032;
+}
+
